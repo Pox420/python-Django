@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Enter you new aritcle here</h1>
+<form class="" method="POST">
+  {% csrf_token %}
+
+  {{ form.as_p }}
+
+  <input type="submit" name="" value="save">
+</form>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+body{
+  background-color: #c1c1c1;
+  color: #333333;
+}
+
+.article h3,p{
+  text-align: center;
+  color: black;
+}
+
+header h1{
+  text-align: center;
+  color: #000000;
+}
